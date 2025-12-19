@@ -62,4 +62,4 @@ Access Host or Admin via the **"Privileged Access"** dropdown in the top-right c
 - **Backend**: Node.js + Express + Socket.IO
 - **Data**: JSON file persistence (in `data/` volume)
 
-Backend API + WebSocket: http://localhost:8080
+Backend API + WebSocket: http://localhost:8882
