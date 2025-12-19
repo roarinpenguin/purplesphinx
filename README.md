@@ -4,7 +4,7 @@
   <img src="assets/logo.png" alt="Purple Sphinx Logo" width="200" style="border-radius: 16px;">
 </div>
 
-Quiz game and voting platform.
+# Quiz game and voting platform.
 
 ## Quick start
 
