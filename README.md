@@ -1,7 +1,7 @@
 # Purple Sphinx
 
 <div align="center">
-  <img src="assets/logo.png" alt="Purple Sphinx Logo" width="400">
+  <img src="assets/logo.png" alt="Purple Sphinx Logo" width="200" style="border-radius: 16px;">
 </div>
 
 Quiz game and voting platform.
