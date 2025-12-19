@@ -1,0 +1,25 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - DATA_DIR=/data
+      - CLIENT_ORIGIN=http://localhost:4000
+    volumes:
+      - purplesphinx_data:/data
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        - VITE_API_URL=http://localhost:8080
+    ports:
+      - "4000:5173"
+    depends_on:
+      - backend
+
+volumes:
+  purplesphinx_data:
