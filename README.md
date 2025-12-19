@@ -2,9 +2,8 @@
 
 <div align="center">
   <img src="assets/logo.png" alt="Purple Sphinx Logo" width="200" style="border-radius: 16px;">
+  <p><em>Quiz game and voting platform</em></p>
 </div>
-
-# Quiz game and voting platform.
 
 ## Quick start
 
